@@ -7,3 +7,4 @@ pandas
 websockets
 python-dotenv
 requests
+python-multipart==0.0.9
