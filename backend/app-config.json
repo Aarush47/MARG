@@ -1,5 +1,6 @@
 {
-  "stack": "python11",
-  "command": "sh start.sh",
-  "env_variables": {}
+  "stack": "python_3_11",
+  "command": "uvicorn main:app --host 0.0.0.0 --port $X_ZOHO_CATALYST_LISTEN_PORT",
+  "buildPath": ".",
+  "memory": 256
 }
