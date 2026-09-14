@@ -1,0 +1,5 @@
+{
+  "stack": "python11",
+  "command": "sh start.sh",
+  "env_variables": {}
+}
